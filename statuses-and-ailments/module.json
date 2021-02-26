@@ -6,7 +6,7 @@
 	"version": "1.0.0",
 	"minimumCoreVersion": "0.5.0", 
 
-	"system": "dnd5e"
+	"system": "dnd5e",
  	"scripts":[
 	  "./script.js"],
 	"manifest": "https://github.com/chompiebacon/statuses-and-ailments/blob/main/statuses-and-ailments/module.json"
