@@ -1,0 +1,33 @@
+Hooks.once('setup', () => {
+
+console.log('P5e | Initializing');
+
+// already standard damage types
+//CONFIG.DND5E.damageTypes['poison'] = 'P5EEXTRA.DamagePoison';
+//CONFIG.DND5E.damageTypes['fire'] = 'P5EEXTRA.DamageFire';
+//CONFIG.DND5E.damageTypes['psychic'] = 'P5EEXTRA.DamagePsychic';
+
+CONFIG.DND5E.damageTypes['blast'] = 'P5EEXTRA.DamageBlast';
+CONFIG.DND5E.damageTypes['dragon'] = 'P5EEXTRA.DamageDragon';
+CONFIG.DND5E.damageTypes['frenzy'] = 'P5EEXTRA.DamageFrenzy';
+CONFIG.DND5E.damageTypes['ground'] = 'P5EEXTRA.DamageGround';
+CONFIG.DND5E.damageTypes['ice'] = 'P5EEXTRA.DamageIce';
+CONFIG.DND5E.damageTypes['paralysis'] = 'P5EEXTRA.DamageParalysis';
+CONFIG.DND5E.damageTypes['sleep'] = 'P5EEXTRA.DamageSleep';
+CONFIG.DND5E.damageTypes['stun'] = 'P5EEXTRA.DamageStun';
+CONFIG.DND5E.damageTypes['water'] = 'P5EEXTRA.DamageWater';
+
+CONFIG.DND5E.hitDieTypes.push('d20');
+
+CONFIG.DND5E.currencies['pd'] = 'P5EEXTRA.CurrencyPD';
+
+CONFIG.DND5E.conditionTypes['asleep'] = "P5EEXTRA.ConAsleep";
+CONFIG.DND5E.conditionTypes['blastblight'] = "P5EEXTRA.ConBlastblight";
+CONFIG.DND5E.conditionTypes['bleeding'] = "P5EEXTRA.ConBleeding";
+CONFIG.DND5E.conditionTypes['dragonblight'] = "P5EEXTRA.ConDragonblight";
+CONFIG.DND5E.conditionTypes['frenzied'] = "P5EEXTRA.ConFrenzied";
+CONFIG.DND5E.conditionTypes['fireblight'] = "P5EEXTRA.ConFireblight";
+CONFIG.DND5E.conditionTypes['iceblight'] = "P5EEXTRA.ConIceblight";
+CONFIG.DND5E.conditionTypes['thunderblight'] = "P5EEXTRA.ConThunderblight";
+CONFIG.DND5E.conditionTypes['waterblight'] = "P5EEXTRA.ConWaterblight";
+});

@@ -1,0 +1,12 @@
+{
+	"name": "statuses-and-ailments",
+	"title": "Extra Damage Types and Ailments",
+	"description": "Adds extra damage types and Ailments simmilar to Monster Hunter franchise videgame",
+	"author": "Thomas at the request of Leroy",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.5.0", 
+
+	"system": "dnd5e"
+ 	"scripts":[
+	  "./script.js"
+}
