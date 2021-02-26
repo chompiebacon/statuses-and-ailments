@@ -8,5 +8,6 @@
 
 	"system": "dnd5e"
  	"scripts":[
-	  "./script.js"
+	  "./script.js"],
+	"manifest": "https://github.com/chompiebacon/statuses-and-ailments/blob/main/statuses-and-ailments/module.json"
 }
