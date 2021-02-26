@@ -9,6 +9,6 @@
 	"system": "dnd5e",
  	"scripts":[
 	  "./script.js"],
-	"manifest": "https://github.com/chompiebacon/statuses-and-ailments/blob/main/statuses-and-ailments/module.json",
+	"manifest": "https://raw.githubusercontent.com/chompiebacon/statuses-and-ailments/main/statuses-and-ailments/module.json",
 	"download": "https://github.com/chompiebacon/statuses-and-ailments/blob/main/statuses-and-ailments.zip"
 }
